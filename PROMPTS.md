@@ -16,4 +16,6 @@ HDFC Bank classroom prototype — enrolment number PGD202567305.
 10. Do not connect to a real bank, request credentials, or execute payments.
 
 ## One thing I checked/changed myself
-[I personally tested the agent revocation feature by registering RahulTestAgent, revoking its permission, checking the saved revocation timestamp, and verifying that a subsequent ₹1,000 bill payment request returned BLOCK under Rule R2.]
+[I personally tested the agent revocation feature by registering RahulTestAgent, revoking its permission, checking the saved revocation timestamp, and verifying that a subsequent ₹1,000 bill payment request returned BLOCK under Rule R2.
+
+I also tested all six required scenarios and verified that the actual decisions matched the expected ALLOW, ASK CUSTOMER and BLOCK outcomes. I checked the audit log to confirm that requests were recorded with timestamps, decisions and rule numbers.]
