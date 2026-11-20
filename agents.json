@@ -1,0 +1,17 @@
+{
+  "DemoAssistant": {
+    "customer": "Asha Sharma",
+    "registered_at": "DEMO-SEED-RECORD",
+    "revoked_at": null
+  },
+  "RevokedAssistant": {
+    "customer": "Ravi Kumar",
+    "registered_at": "DEMO-SEED-RECORD",
+    "revoked_at": "DEMO-REVOKED-RECORD"
+  },
+  "RahulTestAgent": {
+    "customer": "Rahul Sharma",
+    "registered_at": "2026-11-20T20:54:26+05:30",
+    "revoked_at": "2026-11-20T20:58:48+05:30"
+  }
+}

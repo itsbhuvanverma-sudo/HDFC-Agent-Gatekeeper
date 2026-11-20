@@ -1,0 +1,10 @@
+timestamp,customer,agent_name,action,amount_inr,decision,rule,reason
+2026-11-20T20:45:28+05:30,Asha Sharma,DemoAssistant,view_balance,0,ALLOW,R3,Registered and active agent; balance viewing is read-only.
+2026-11-20T20:46:13+05:30,Asha Sharma,DemoAssistant,view_balance,0,ALLOW,R3,Registered and active agent; balance viewing is read-only.
+2026-11-20T20:49:00+05:30,Asha Sharma,UnknownAssistant,view_balance,0,BLOCK,R1,This agent is not registered.
+2026-11-20T20:49:51+05:30,Asha Sharma,DemoAssistant,pay_bill,15000,ASK CUSTOMER,R5,"Payment exceeds ₹5,000; customer confirmation is required."
+2026-11-20T20:50:25+05:30,Asha Sharma,DemoAssistant,pay_bill,2000,ALLOW,R4,"Bill payment is within the ₹5,000 demonstration limit."
+2026-11-20T20:50:58+05:30,Ravi Kumar,RevokedAssistant,pay_bill,1000,BLOCK,R2,Agent permission was revoked at DEMO-REVOKED-RECORD.
+2026-11-20T20:51:33+05:30,Asha Sharma,DemoAssistant,transfer_money,3000,ASK CUSTOMER,R6,All money transfers require direct customer confirmation.
+2026-11-20T20:56:40+05:30,Rahul Sharma,RahulTestAgent,pay_bill,1000,ALLOW,R4,"Bill payment is within the ₹5,000 demonstration limit."
+2026-11-20T20:59:36+05:30,Rahul Sharma,RahulTestAgent,pay_bill,1000,BLOCK,R2,Agent permission was revoked at 2026-11-20T20:58:48+05:30.
